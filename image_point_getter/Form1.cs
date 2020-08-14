@@ -170,7 +170,7 @@ namespace image_point_getter
                     val = bmp.GetPixel(x, b).GetBrightness();
                 }
 
-                if (val < 0.6)
+                if (val < 0.9)
                 {
                     return x-dir;
                 }
